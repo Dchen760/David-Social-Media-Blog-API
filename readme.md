@@ -1,5 +1,13 @@
 # Project: Social media blog API
 
+## Table of Contents
+
+- [Requirements](#requirements)
+- [Further Guidance](#further guidance)
+- [Contributors](#contributors)
+- [License](#license)
+
+
 ## Background 
 
 When building a full-stack application, we're typically concerned with both a front end, that displays information to the user and takes in input, and a backend, that manages persisted information.
@@ -82,7 +90,7 @@ As a user, I should be able to submit a GET request on the endpoint GET localhos
 
 - The response body should contain a JSON representation of a list containing all messages posted by a particular user, which is retrieved from the database. It is expected for the list to simply be empty if there are no messages. The response status should always be 200, which is the default.
 
-# Further guidance
+# Further Guidance
 
 Some classes are already complete and SHOULD NOT BE CHANGED - Integration tests, Model classes for Account and Message, a ConnectionUtil class. Changing any of these classes will likely result in the test cases being impossible to pass.
 
@@ -101,6 +109,7 @@ Revature training team, David Chen
 
 # License
 
+MIT License
 
 
 # Good luck!
